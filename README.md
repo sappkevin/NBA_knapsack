@@ -25,12 +25,12 @@ the CSV file containing the player point projections along with their value.
 Once you have the CSV file on your local machine, you can run the optimizer using terminal:
 
 ```
-python nba_lineup_knapsack.py -csv PATH_TO_CSV
+python nba_lineup_knapsack.py -csv <PATH_TO_CSV>
 or
 python nba_lineup_knapsack.py (uses the default DKSalaries.csv file in the root folder -> NBA_knapsack/) 
 ```
 
-where `PATH_TO_CSV` is the file path location of the CSV file downloaded from DraftKings. 
+where `<PATH_TO_CSV>` is the local machine file path location of the CSV file downloaded from DraftKings. 
 
 ![](https://i.imgur.com/xpiX8ns.png)
 
