@@ -1,3 +1,5 @@
+
+## Taken from original project : https://github.com/eexwhyzee/NBA_knapsack
 # NBA Lineup Optimizer for DraftKings
 
 ## Overview 
