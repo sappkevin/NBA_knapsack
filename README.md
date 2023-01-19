@@ -2,6 +2,9 @@
 ## Taken from original project : https://github.com/eexwhyzee/NBA_knapsack
 # NBA Lineup Optimizer for DraftKings
 
+## Disclaimer
+Please use this code at your own risk. This code is just for fun and entertainment purposes and should not be used unless you accept the risk of losing money.
+
 ## Overview 
 
 With the NBA season coming up, I wanted to implement a simple [knapsack](https://en.wikipedia.org/wiki/Knapsack_problem) algorithm using python to optimize NBA lineups used for DraftKings. In daily fantasy sports, you are allotted a salary cap and the main objective is to create a lineup that will score the most fantasy points while staying at/below a salary cap, which is a great representation of the knapsack algorithm.
