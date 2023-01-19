@@ -11,7 +11,7 @@ With the NBA season coming up, I wanted to implement a simple [knapsack](https:/
 To get started, clone this repo and change directories:
 
 ```
-git clone https://github.com/eexwhyzee/NBA_knapsack.git
+git clone https://github.com/sappkevin/NBA_knapsack.git
 cd NBA_knapsack/
 ```
 
@@ -26,6 +26,8 @@ Once you have the CSV file on your local machine, you can run the optimizer usin
 
 ```
 python nba_lineup_knapsack.py -csv PATH_TO_CSV
+or
+python nba_lineup_knapsack.py (uses the default DKSalaries.csv file in the root folder -> NBA_knapsack/) 
 ```
 
 where `PATH_TO_CSV` is the file path location of the CSV file downloaded from DraftKings. 
