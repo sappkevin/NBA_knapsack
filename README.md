@@ -18,7 +18,7 @@ cd NBA_knapsack/
 ## Usage
 
 To use the optimizer, you must have an account with [DraftKings](https://www.draftkings.com/lobby), and download
-the CSV file containing the player point projections along with their value.
+the CSV file containing the player point projections along with their value. 
 
 ![](https://i.imgur.com/0K1hHIZ.png)
 
@@ -37,7 +37,13 @@ where `<PATH_TO_CSV>` is the local machine file path location of the CSV file do
 The output will be displated on your terminal, and it will contain an optimized lineup based on point projections
 given the salary cap constraint. 
 
-## TODO
+## Changes
+-- Fixed bugs reported for original author on 01/19/2023 (ksapp)
+-- Fixed bug where there were mulitple Centers generated lineup. Only 1 center is allowed to be added to DK lineup
 
+## TODO
+- Have script account for players that are listed as injured or questionable 
+- Generate a CSV file and automatically import/upload to DK for custom lineups
+- Have more algorithm options outside of Knapsack
 - Automatically download CSV files from Draftkings using [Selenium](http://www.seleniumhq.org/).
 - Implement player points projections using advanced analytics (USG%) and possibly player/team matchup data. 
